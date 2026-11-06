@@ -1,0 +1,31 @@
+{
+  "whisper": {
+    "model": "large-v3-turbo",
+    "language": "ja",
+    "device": "auto",
+    "compute_type": "auto",
+    "initial_prompt": "えー、あのー、えっと、それでですね、今日はこの話をします。"
+  },
+  "cut": {
+    "silence_db": -35,
+    "min_silence": 0.6,
+    "padding": 0.15,
+    "fillers_auto": ["えー", "えーと", "えーっと", "えっと", "えと", "あのー", "あのぉ", "うーん", "うーんと", "んー", "ええと"],
+    "fillers_ask": ["あの", "まあ", "その", "なんか"]
+  },
+  "telop": {
+    "font": "Noto Sans JP",
+    "size_ratio": 0.058,
+    "max_lines": 2,
+    "bottom_margin_ratio": 0.07,
+    "normal_color": "&H00FFFFFF",
+    "emphasis_color": "&H0000E5FF",
+    "outline_color": "&H00000000"
+  },
+  "render": {
+    "preview_short_side": 720,
+    "preview_crf": 28,
+    "final_crf": 18,
+    "audio_bitrate": "192k"
+  }
+}

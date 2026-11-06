@@ -1,0 +1,9 @@
+# 動画や作業ファイルはGitHubに上げない
+projects/*
+!projects/.gitkeep
+*.mp4
+*.mov
+*.m4a
+*.wav
+__pycache__/
+.venv/

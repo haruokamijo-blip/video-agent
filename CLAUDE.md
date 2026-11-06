@@ -4,6 +4,7 @@
 手順は `.claude/skills/edit-video/SKILL.md` に従う。
 
 ## 大事な決まり
+- **ユーザーへの返事・途中経過の報告は、必ず日本語で書く（英語は使わない）。**
 - **編集内容はすべて `projects/<案件>/timeline.json` に書く。** 動画を直接いじらない。
   書き出しは `tools/render.py` が timeline.json のとおりに行う。
 - timeline.json の時間は**元動画の秒数**。カット後の時間ではない。
